@@ -39,7 +39,6 @@ categorical['x35'] = categorical['x35'].str.replace('MONDAY','MON')
 categorical['x68'] = categorical['x68'].str.replace('JANUARY','JAN')
 categorical['x68'] = categorical['x68'].str.replace('DEV','DEC')
 
-
 categorical.x34.fillna(value='VOLKSWAGON', inplace=True)
 categorical.x35.fillna(value='WED', inplace=True)
 categorical.x68.fillna(value='JULY', inplace=True)
