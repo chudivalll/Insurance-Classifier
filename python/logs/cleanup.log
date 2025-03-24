@@ -37,3 +37,42 @@
 2025-03-24 13:13:32,108 - python.logger - INFO - Found 1 Python files to clean
 2025-03-24 13:13:32,109 - python.logger - INFO - Processing file 1/1: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Insurance-Classifier\python\Insurance_Classifier.py
 2025-03-24 13:13:32,382 - python.logger - INFO - ==== GitHub Codebase Cleanup completed successfully ====
+2025-03-24 13:20:51,458 - python.logger - INFO - ==== Starting GitHub Codebase Cleanup ====
+2025-03-24 13:20:51,458 - python.logger - INFO - DRY RUN MODE: No changes will be made
+2025-03-24 13:20:51,458 - python.logger - INFO - Repository root: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Insurance-Classifier\python
+2025-03-24 13:20:51,459 - python.logger - INFO - Initializing components...
+2025-03-24 13:20:51,461 - python.logger - INFO - Components initialized successfully
+2025-03-24 13:20:51,461 - python.logger - INFO - Classifying files...
+2025-03-24 13:20:51,465 - python.logger - INFO - File classification summary:
+2025-03-24 13:20:51,465 - python.logger - INFO -   - python: 1 files
+2025-03-24 13:20:51,466 - python.logger - INFO -   - javascript: 0 files
+2025-03-24 13:20:51,467 - python.logger - INFO -   - typescript: 0 files
+2025-03-24 13:20:51,467 - python.logger - INFO -   - html: 0 files
+2025-03-24 13:20:51,468 - python.logger - INFO -   - css: 0 files
+2025-03-24 13:20:51,469 - python.logger - INFO -   - documentation: 0 files
+2025-03-24 13:20:51,469 - python.logger - INFO -   - data: 0 files
+2025-03-24 13:20:51,470 - python.logger - INFO -   - images: 0 files
+2025-03-24 13:20:51,471 - python.logger - INFO - Cleaning Python code...
+2025-03-24 13:20:51,472 - python.logger - INFO - README files will be preserved (not modified)
+2025-03-24 13:20:51,472 - python.logger - INFO - Found 1 Python files to clean
+2025-03-24 13:20:51,473 - python.logger - INFO - Processing file 1/1: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Insurance-Classifier\python\Insurance_Classifier.py
+2025-03-24 13:20:51,813 - python.logger - INFO - ==== GitHub Codebase Cleanup completed successfully ====
+2025-03-24 13:20:59,885 - python.logger - INFO - ==== Starting GitHub Codebase Cleanup ====
+2025-03-24 13:20:59,885 - python.logger - INFO - Repository root: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Insurance-Classifier\python
+2025-03-24 13:20:59,886 - python.logger - INFO - Initializing components...
+2025-03-24 13:20:59,889 - python.logger - INFO - Components initialized successfully
+2025-03-24 13:20:59,889 - python.logger - INFO - Classifying files...
+2025-03-24 13:20:59,892 - python.logger - INFO - File classification summary:
+2025-03-24 13:20:59,892 - python.logger - INFO -   - python: 1 files
+2025-03-24 13:20:59,892 - python.logger - INFO -   - javascript: 0 files
+2025-03-24 13:20:59,893 - python.logger - INFO -   - typescript: 0 files
+2025-03-24 13:20:59,894 - python.logger - INFO -   - html: 0 files
+2025-03-24 13:20:59,894 - python.logger - INFO -   - css: 0 files
+2025-03-24 13:20:59,895 - python.logger - INFO -   - documentation: 0 files
+2025-03-24 13:20:59,896 - python.logger - INFO -   - data: 0 files
+2025-03-24 13:20:59,897 - python.logger - INFO -   - images: 0 files
+2025-03-24 13:20:59,897 - python.logger - INFO - Cleaning Python code...
+2025-03-24 13:20:59,898 - python.logger - INFO - README files will be preserved (not modified)
+2025-03-24 13:20:59,899 - python.logger - INFO - Found 1 Python files to clean
+2025-03-24 13:20:59,901 - python.logger - INFO - Processing file 1/1: C:\Users\chudi\Desktop\FirstOne\Github_Repos\Insurance-Classifier\python\Insurance_Classifier.py
+2025-03-24 13:21:00,244 - python.logger - INFO - ==== GitHub Codebase Cleanup completed successfully ====

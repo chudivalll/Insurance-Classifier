@@ -1,3 +1,6 @@
+#----------------------------------------------------------------------
+# IMPORTS
+#----------------------------------------------------------------------
 import os
 import sys
 
@@ -12,6 +15,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import GridSearchCV, cross_val_score, train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
+# Load data from CSV file into a DataFrame
 
 df = pd.read_csv("/Users/mac/Downloads/exercise_03_train.csv")
 # %%
@@ -41,9 +45,11 @@ categorical.x34.fillna(value="VOLKSWAGON", inplace=True)
 categorical.x35.fillna(value="WED", inplace=True)
 categorical.x68.fillna(value="JULY", inplace=True)
 categorical.x93.fillna(value="ASIA", inplace=True)
+# Iterate through elements
 
 for x in categorical:
     print(categorical[x].value_counts(dropna=False))
+# Create a new DataFrame
 
 categorical1 = pd.DataFrame(
     pandasql.sqldf(
@@ -65,10 +71,12 @@ numerical = df.loc[:, df.dtypes == float]
 
 # Utilized a univariate imputation algorithm for the missing values and scaled the results
 imp = SimpleImputer()
+# Create a new DataFrame
 imp_numerical = pd.DataFrame(imp.fit_transform(numerical))
 imp_numerical.columns = numerical.columns
 
 stan = preprocessing.StandardScaler().fit(numerical)
+# Create a new DataFrame
 scaled_imp_numerical = pd.DataFrame(stan.transform(imp_numerical))
 
 imp_numerical.info()
@@ -110,6 +118,7 @@ scores.mean()  # Returned a mean accracy score of 93.6%. Implemented hyperparame
 # Finding optimal value of k for KNN (computationally expensive)
 k_range = range(1, 31)
 k_scores = []
+# Iterate through elements
 for k in k_range:
     knn = KNeighborsClassifier(n_neighbors=k)
     scores = cross_val_score(knn, df_features, df_labels, cv=10, scoring="accuracy")
